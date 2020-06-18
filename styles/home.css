@@ -1,39 +1,35 @@
-.home{
+.home {
     background: #f3c6bd;
     padding: 250px 0 80px;
 }
 
-.home__container{
+.home__container {
     display: flex;
     align-items: center;
 }
 
-.home__content{
+.home__content {
     width: 40%;
-    /*display: flex;*/
-    /*flex-direction: column;*/
     position: relative;
 }
 
-.home__content-title{
-    font-family: 'WorkSans-Bold', sans-serif;
+.home__content-title {
+    font-family: "WorkSans-Bold", sans-serif;
     font-weight: bold;
     font-size: 65px;
     color: #2b292d;
-    /*position: absolute;*/
     width: 600px;
-    /*bottom: 200px;*/
 }
 
-.home__content-text{
-    font-family: 'WorkSans', sans-serif;
+.home__content-text {
+    font-family: "WorkSans", sans-serif;
     font-weight: normal;
     font-size: 24px;
     color: #2b292d;
     padding: 40px 0;
 }
 
-.home__bg{
+.home__bg {
     width: 60%;
 }
 
@@ -41,6 +37,6 @@
     display: flex;
 }
 
-.home__btn{
+.home__btn {
     margin-right: 20px;
 }

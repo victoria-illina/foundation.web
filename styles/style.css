@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.screen{
+.screen {
     margin: auto;
     max-width: 1200px;
     padding-left: 80px;
@@ -43,7 +43,7 @@ button::-moz-focus-inner {
 }
 
 .btn {
-    font-family: 'WorkSans-Bold' , sans-serif;
+    font-family: "WorkSans-Bold", sans-serif;
     font-size: 18px;
     color: #fff;
     border: 1px solid #3040c4;
