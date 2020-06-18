@@ -62,7 +62,7 @@
     opacity: 0.5;
 }
 
-.header__nav-item-arrow {
+.header__nav-link-arrow {
     display: flex;
     align-items: flex-end;
 }
@@ -71,8 +71,4 @@
     width: 20px;
     height: 15px;
     padding-left: 7px;
-}
-
-.header__nav-arrow:hover {
-    opacity: 0.5;
 }
