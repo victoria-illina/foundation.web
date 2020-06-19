@@ -1,11 +1,12 @@
 .home {
     background: #f3c6bd;
-    padding: 250px 0 80px;
+    padding: 200px 0 80px;
 }
 
 .home__container {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .home__content {
@@ -14,20 +15,15 @@
 }
 
 .home__content-title {
-    font-family: "WorkSans-Bold", sans-serif;
     font-weight: bold;
     font-size: 65px;
-    color: #2b292d;
     width: 600px;
 }
 
-.home__content-text {
-    font-family: "WorkSans", sans-serif;
-    font-weight: normal;
-    font-size: 24px;
-    color: #2b292d;
-    padding: 40px 0;
+.home__content-text{
+    padding: 35px 0 45px;
 }
+
 
 .home__bg {
     width: 60%;

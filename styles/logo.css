@@ -1,0 +1,31 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-bottom: 100px;
+}
+
+.logo-ny{
+    width: 100px;
+}
+
+.logo-forbes{
+    width: 105px;
+}
+
+.logo-apple{
+    width: 40px;
+}
+
+.logo-mashable{
+    width: 150px;
+}
+
+.logo-wsj{
+    width: 75px;
+}
+
+.logo-google{
+    width: 120px;
+}

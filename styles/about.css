@@ -11,16 +11,11 @@
     padding-right: 50px;
 }
 .about__content-title {
-    font-family: "WorkSans-Bold", sans-serif;
     font-weight: bold;
     font-size: 22px;
-    color: #2b292d;
 }
 
 .about__content-text {
-    font-family: "WorkSans-Regular", sans-serif;
-    font-weight: normal;
     font-size: 22px;
-    color: #2b292d;
     padding-top: 20px;
 }
