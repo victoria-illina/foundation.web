@@ -6,7 +6,6 @@
     background-size: contain;
 }
 
-
 .features__content{
     background-image: url('../imgs/Ouch.png');
     background-repeat: no-repeat ;
@@ -14,11 +13,12 @@
 }
 
 .features__block-half{
-    width: 50%;
+    width: 40%;
 }
 
 .features__content-text{
     padding:40px 0;
+
 }
 
 .features__content-subtitle{
@@ -47,13 +47,14 @@
 .features__secondary-text{
     font-size: 18px;
     padding-top: 10px;
+    line-height: 1.5;
 }
 
 .features__line{
-    width: 500px;
+    width: 100%;
     height: 2px;
     background:  #3142c6;
-    margin: 15px 0;
+    margin: 15px 0 20px;
 }
 
 .features__additional-block{
@@ -74,10 +75,10 @@
 }
 
 .features__additional-line{
-    width: 500px;
+    width: 100%;
     height: 1px;
     opacity: 0.15;
     background: #2b292d;
-    margin: 10px 0;
+    margin: 20px 0;
 
 }
