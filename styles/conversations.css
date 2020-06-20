@@ -1,31 +1,32 @@
-.conversations{
-    display: flex;
+.conversations {
     background: #fcf0e3;
-    padding: 120px 100px 100px 195px;
-    width: 100%;
-    box-sizing: border-box;
+    padding-top: 120px;
+    padding-bottom: 100px;
 }
 
-.conversations__bg-block{
+.conversations__conteiner {
+    display: flex;
+}
+.conversations__bg-block {
     width: 50%;
 }
 
-.conversations__bg-text{
+.conversations__bg-text {
     font-size: 14px;
     line-height: 1.57;
     color: rgba(43, 41, 45, 0.6);
-    padding: 5px 0 0 50px;
+    padding: 15px 0 0 50px;
 }
 
-.conversations__content{
+.conversations__content {
     width: 50%;
 }
 
-.conversations__content-block{
- padding-left: 15px;
+.conversations__content-block {
+    padding-left: 15px;
 }
 
-.conversations__subtitle{
+.conversations__subtitle {
     font-size: 22px;
     font-weight: bold;
     line-height: 1.55;
@@ -33,33 +34,33 @@
     padding-bottom: 20px;
 }
 
-.conversations__text{
+.conversations__text {
     padding: 30px 0 40px 0;
 }
 
-.conversations__additional-content{
+.conversations__additional-content {
     background: #fff;
     border-bottom: 4px solid #0185d0;
     padding: 30px;
 }
 
-.conversations__additional-text{
+.conversations__additional-text {
     font-size: 20px;
     line-height: 1.4;
 }
 
-.conversations__profile{
+.conversations__profile {
     display: flex;
     align-items: center;
     padding-top: 25px;
 }
 
-.conversations__profile-icon{
+.conversations__profile-icon {
     width: 40px;
     padding-right: 10px;
 }
 
-.conversations__profile-name{
+.conversations__profile-name {
     font-size: 16px;
     line-height: 1.38;
     font-weight: bold;
@@ -67,7 +68,4 @@
 
 .conversations__profile-position {
     color: rgba(43, 41, 45, 0.6);
-
 }
-
-
