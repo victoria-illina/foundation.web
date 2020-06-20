@@ -1,0 +1,63 @@
+.communication {
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+
+.communication__block {
+    display: flex;
+}
+
+.communication__block-content {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.communication__subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.55;
+    color: #0189d1;
+    padding-bottom: 20px;
+}
+
+.communication__text {
+    padding: 30px 0 40px 0;
+}
+
+.communication__line {
+    width: 150px;
+    height: 1px;
+    opacity: 0.1;
+    background-color: #000;
+    margin: 80px 0 40px 0;
+}
+
+.communication__block-bg {
+    width: 50%;
+}
+
+.communication__bg-text {
+    font-size: 14px;
+    line-height: 1.57;
+    color: rgba(43, 41, 45, 0.6);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.communication__links {
+    display: flex;
+}
+.communication__links-container {
+    padding-right: 30px;
+}
+.communication__links-text {
+    font-size: 18px;
+    line-height: 1.44;
+    padding-bottom: 15px;
+}
+
+.communication__link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3142c6;
+}
