@@ -1,8 +1,7 @@
 .audience {
-    background: #00a1c6;
+    background: rgba(0, 161, 198, 0.3);
     padding-bottom: 110px;
     padding-top: 110px;
-    /*opacity: 0.07;*/
 
 }
 
@@ -11,11 +10,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .audience__subtitle{
     font-size: 22px;
     font-weight: bold;
+}
+
+.audience__title{
+    padding: 25px 0;
+}
+
+.audience__text{
+    max-width: 550px;
+    text-align: center;
+}
+.audience__btn-group{
+    padding: 34px 0 111px 0;
 }
 
 .audience__sliders-block{
@@ -30,6 +42,17 @@
     width: 260px;
     height: 300px;
     background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
 
+.audience__slider:hover{
+    background: #3141c5;
+}
 
+.audience__slider-img{
+    padding-bottom: 10px;
 }
