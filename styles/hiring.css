@@ -1,0 +1,32 @@
+.hiring{
+    padding-bottom: 110px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.hiring__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiring__text{
+    max-width: 500px;
+    padding: 20px 0 28px 0;
+}
+
+.hiring__btn-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.hiring__btn{
+    font-size: 22px;
+    font-weight: bold;
+    width: 750px;
+    height: 81px;
+    border-radius: 8px;
+    box-shadow: 0 11px 55px 10px rgba(0, 0, 0, 0.07), 0 13px 18px -8px rgba(0, 0, 0, 0.15);
+}
