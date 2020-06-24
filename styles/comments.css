@@ -1,0 +1,76 @@
+.comments{
+    padding-bottom: 50px;
+    /*padding-top: 50px;*/
+
+}
+
+.comments__container{
+    background-image: url('../imgs/BallBg.png');
+    background-repeat: no-repeat ;
+    background-position: bottom right;
+}
+
+.comments__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.comments__subtitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3142c6;
+}
+
+.comments__text{
+    padding: 30px 0;
+    max-width: 700px;
+}
+
+.comments__person{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 35px;
+}
+.comments__person-name{
+    font-weight: bold;
+
+}
+
+.comments__person-position{
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.comments__dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+
+}
+
+.comments__dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(43, 41, 45, 0.2);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.comments__dot:last-child{
+    margin-right: 0;
+}
+
+.comments__dot:hover{
+    background: #3142c5;
+}
+
+.comments__line {
+    width: 100%;
+    height: 1px;
+    opacity: 0.1;
+    background-color: #000000;
+}

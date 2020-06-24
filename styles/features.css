@@ -9,7 +9,7 @@
 .features__content{
     background-image: url('../imgs/Ouch.png');
     background-repeat: no-repeat ;
-    background-position: left, center;
+    background-position: left center;
 }
 
 .features__block-half{
