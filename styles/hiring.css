@@ -1,32 +1,61 @@
-.hiring{
+.hiring {
     padding-bottom: 110px;
     padding-top: 50px;
     text-align: center;
 }
 
-
-.hiring__container{
+.hiring__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.hiring__text{
+.hiring__text {
     max-width: 500px;
     padding: 20px 0 28px 0;
 }
 
-.hiring__btn-group{
-    display: flex;
-    flex-direction: column;
+.hiring__btn-group {
+    margin-top: 80px;
 }
 
-.hiring__btn{
+.hiring__btn {
+    margin-top: 20px;
+    text-align: left;
+    padding: 25px;
+    font-family: "WorkSans", sans-serif;
     font-size: 22px;
     font-weight: bold;
+    line-height: 1.27;
     width: 750px;
     height: 81px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
     border-radius: 8px;
-    box-shadow: 0 11px 55px 10px rgba(0, 0, 0, 0.07), 0 13px 18px -8px rgba(0, 0, 0, 0.15);
+    background-image: url("../imgs/ArrowNext.svg");
+    background-repeat: no-repeat;
+    background-position: right 25px top 50%;
+}
+
+.hiring__btn:hover {
+    color: #fff;
+    background: #3040c4;
+    border-color: #fff;
+    background-image: url("../imgs/ArrowNextWhite.svg");
+    background-repeat: no-repeat;
+    background-position: right 25px top 50%;
+}
+
+.hiring__btn-text {
+    line-height: 1.33;
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.hiring__btn-last {
+    padding-left: 160px;
+}
+
+.hiring__btn:hover .hiring__btn-text {
+    color: #fff;
 }
