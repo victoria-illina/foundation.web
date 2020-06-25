@@ -35,6 +35,7 @@
     background-image: url("../imgs/ArrowNext.svg");
     background-repeat: no-repeat;
     background-position: right 25px top 50%;
+    cursor: pointer;
 }
 
 .hiring__btn:hover {

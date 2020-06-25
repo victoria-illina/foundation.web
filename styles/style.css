@@ -76,7 +76,6 @@ button::-moz-focus-inner {
 .btn:hover {
     color: #3040c4;
     background: #fff;
-    border-color: #fff;
 }
 
 
