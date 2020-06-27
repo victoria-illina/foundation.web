@@ -18,15 +18,19 @@
     <link rel="stylesheet" href="styles/footer.css" />
 </head>
 <body>
-<div class="header">
+<header class="header">
     <div class="header__logo-container">
-        <img src="imgs/FoundationLogo.svg" alt="" class="header__logo" />
+        <img
+                src="imgs/FoundationLogo.svg"
+                alt="Website logo"
+                class="header__logo"
+        />
         <p class="header__logo-text">
             Foundation <span class="header__text-color">Startup</span>
         </p>
     </div>
-    <div class="header__nav-container">
-        <nav class="header__nav">
+    <nav class="header__nav-container">
+        <menu class="header__nav">
             <li class="header__nav-item">
                 <a href="#Home" class="header__nav-link">Home</a>
             </li>
@@ -37,15 +41,15 @@
                 <a href="#Library" class="header__nav-link header__nav-link-arrow"
                 >Library<img
                         src="imgs/ArrowHeader.svg"
-                        alt=""
+                        alt="Navigation arrow "
                         class="header__nav-arrow"
                 /></a>
             </li>
-        </nav>
+        </menu>
         <button class="btn">Get Started</button>
-    </div>
-</div>
-<div class="home">
+    </nav>
+</header>
+<section class="home">
     <div class="screen">
         <div class="home__container">
             <div class="home__content">
@@ -59,11 +63,15 @@
                     <button class="btn">Learn More</button>
                 </div>
             </div>
-            <img src="imgs/HomeBg.png" alt="" class="home__bg" />
+            <img
+                    src="imgs/HomeBg.png"
+                    alt="Background for the section home"
+                    class="home__bg"
+            />
         </div>
     </div>
-</div>
-<div class="about">
+</section>
+<section class="about">
     <div class="screen">
         <div class="about__container">
             <div class="about__content">
@@ -82,16 +90,24 @@
             </div>
         </div>
     </div>
-</div>
-<div class="screen logo">
-    <img src="imgs/NyTimes.png" alt="" class="logo-ny" />
-    <img src="imgs/Forbes.png" alt="" class="logo-forbes" />
-    <img src="imgs/Apple.png" alt="" class="logo-apple" />
-    <img src="imgs/Mashable.png" alt="" class="logo-mashable" />
-    <img src="imgs/Wsj.png" alt="" class="logo-wsj" />
-    <img src="imgs/Google.png" alt="" class="logo-google" />
-</div>
-<div class="features">
+</section>
+<section class="screen logo">
+    <img
+            src="imgs/NyTimes.png"
+            alt="Logo The New York Times"
+            class="logo-ny"
+    />
+    <img src="imgs/Forbes.png" alt="Logo Forbes" class="logo-forbes" />
+    <img src="imgs/Apple.png" alt="Logo Apple" class="logo-apple" />
+    <img src="imgs/Mashable.png" alt="Logo Mashable" class="logo-mashable" />
+    <img
+            src="imgs/Wsj.png"
+            alt="Logo The Wall Street Journal"
+            class="logo-wsj"
+    />
+    <img src="imgs/Google.png" alt="Logo Google" class="logo-google" />
+</section>
+<section class="features">
     <div class="features__content">
         <div class="screen">
             <div class="features__block-half">
@@ -104,7 +120,7 @@
                 <div class="features__secondary-subtitle-block">
                     <img
                             src="imgs/CompassIcon.svg"
-                            alt=""
+                            alt="Icon for the section features"
                             class="features__secondary-subtitle-icon"
                     />
                     <h3 class="features__secondary-subtitle">
@@ -119,7 +135,7 @@
                 <div class="features__additional-block">
                     <img
                             src="imgs/HomeIcon.svg"
-                            alt=""
+                            alt="Icon for the section features"
                             class="features__additional-icon"
                     />
                     <p class="features__additional-text">Engage users</p>
@@ -128,7 +144,7 @@
                 <div class="features__additional-block">
                     <img
                             src="imgs/FeaturesIcon.svg"
-                            alt=""
+                            alt="Icon for the section features"
                             class="features__additional-icon"
                     />
                     <p class="features__additional-text">Develop across platforms</p>
@@ -137,14 +153,14 @@
             </div>
         </div>
     </div>
-</div>
-<div class="conversations">
+</section>
+<section class="conversations">
     <div class="screen">
         <div class="conversations__container">
             <div class="conversations__bg-block">
                 <img
                         src="imgs/Conversations.png"
-                        alt=""
+                        alt="Background for the section conversations"
                         class="conversations__bg"
                 />
                 <p class="conversations__bg-text">
@@ -169,7 +185,7 @@
                     <div class="conversations__profile">
                         <img
                                 src="imgs/ProfileIcon.png"
-                                alt=""
+                                alt="Creative Director foto "
                                 class="conversations__profile-icon"
                         />
                         <div class="conversations__profile-text">
@@ -183,8 +199,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="communication screen">
+</section>
+<section class="communication screen">
     <div class="communication__block">
         <div class="communication__block-content">
             <h3 class="communication__subtitle">Communicate Better</h3>
@@ -199,7 +215,7 @@
         <div class="communication__block-bg">
             <img
                     src="imgs/CommunicationBg.png"
-                    alt=""
+                    alt="Background for the section communication"
                     class="communication__bg"
             />
             <p class="communication__bg-text">
@@ -213,7 +229,7 @@
                 <b>Subscriptions.</b> Foundation works with the tools and services
                 you already use every day.
             </p>
-            <a href="" class="communication__link"
+            <a href="#Learnmore" class="communication__link"
             >Learn more about subscriptions</a
             >
         </div>
@@ -222,18 +238,22 @@
                 <b>Felxible Hours.</b> Get started with our simple snippet of
                 JavaScript or easy to install SDKs for iOS and Android.
             </p>
-            <a href="" class="communication__link">Get more info about hours</a>
+            <a href="#Getmore" class="communication__link"
+            >Get more info about hours</a
+            >
         </div>
         <div class="communication__links-container">
             <p class="communication__links-text">
                 <b>Fast Communication.</b> We offer measures like 2FA and SSO to
                 ensure the safety of your data.
             </p>
-            <a href="" class="communication__link">Communication guidelines</a>
+            <a href="#Communication" class="communication__link"
+            >Communication guidelines</a
+            >
         </div>
     </div>
-</div>
-<div class="audience">
+</section>
+<section class="audience">
     <div class="screen">
         <div class="audience__content">
             <h3 class="audience__subtitle">Engage Visitors</h3>
@@ -251,7 +271,7 @@
             <div class="audience__slider">
                 <img
                         src="imgs/Developers.png"
-                        alt=""
+                        alt="Developers icon"
                         class="audience__slider-img"
                 />
                 <h3 class="audience__subtitle">Developers</h3>
@@ -259,31 +279,47 @@
             <div class="audience__slider">
                 <img
                         src="imgs/Entertainment.png"
-                        alt=""
+                        alt="Entertainment icon"
                         class="audience__slider-img"
                 />
                 <h3 class="audience__subtitle">Entertainment</h3>
             </div>
             <div class="audience__slider">
-                <img src="imgs/Athletes.png" alt="" class="audience__slider-img" />
+                <img
+                        src="imgs/Athletes.png"
+                        alt="Athletes icon"
+                        class="audience__slider-img"
+                />
                 <h3 class="audience__subtitle">Athletes</h3>
             </div>
             <div class="audience__slider">
-                <img src="imgs/Creators.png" alt="" class="audience__slider-img" />
+                <img
+                        src="imgs/Creators.png"
+                        alt="Creators icon"
+                        class="audience__slider-img"
+                />
                 <h3 class="audience__subtitle">Creators</h3>
             </div>
         </div>
     </div>
-</div>
-<div class="screen logo">
-    <img src="imgs/NyTimes.png" alt="" class="logo-ny" />
-    <img src="imgs/Forbes.png" alt="" class="logo-forbes" />
-    <img src="imgs/Apple.png" alt="" class="logo-apple" />
-    <img src="imgs/Mashable.png" alt="" class="logo-mashable" />
-    <img src="imgs/Wsj.png" alt="" class="logo-wsj" />
-    <img src="imgs/Google.png" alt="" class="logo-google" />
-</div>
-<div class="comments">
+</section>
+<section class="screen logo">
+    <img
+            src="imgs/NyTimes.png"
+            alt="Logo The New York Times"
+            class="logo-ny"
+    />
+    <img src="imgs/Forbes.png" alt="Logo Forbes" class="logo-forbes" />
+    <img src="imgs/Apple.png" alt="Logo Apple" class="logo-apple" />
+    <img src="imgs/Mashable.png" alt="Logo Mashable" class="logo-mashable" />
+    <img
+            src="imgs/Wsj.png"
+            alt="Logo The Wall Street Journa"
+            class="logo-wsj"
+    />
+    <img src="imgs/Google.png" alt="Logo Google" class="logo-google" />
+</section>
+<section class="comments">
     <div class="comments__container">
         <div class="screen">
             <div class="comments__content">
@@ -310,8 +346,8 @@
         </div>
         <div class="comments__line"></div>
     </div>
-</div>
-<div class="hiring">
+</section>
+<section class="hiring">
     <div class="screen">
         <div class="hiring__container">
             <h2 class="title">We’re hiring</h2>
@@ -338,11 +374,15 @@
             </div>
         </div>
     </div>
-</div>
-<div class="contacts">
+</section>
+<section class="contacts">
     <div class="screen">
         <div class="contacts__container">
-            <img src="imgs/ContactsBg.png" alt="" class="contacts__bg" />
+            <img
+                    src="imgs/ContactsBg.png"
+                    alt="Background for the section contacts"
+                    class="contacts__bg"
+            />
             <div class="contacts__content">
                 <h2 class="title">Start your free trial.</h2>
                 <p class="text contacts__text">
@@ -361,18 +401,22 @@
                 </form>
                 <p class="contacts__text-link">
                     Free 14-day trial · Easy setup · Cancel any time. Check out
-                    <a href="" class="contacts__link">Terms of Use.</a>
+                    <a href="#TermsofUse" class="contacts__link">Terms of Use.</a>
                 </p>
             </div>
         </div>
     </div>
-</div>
+</section>
 <footer class="footer">
     <div class="screen">
         <div class="footer__container">
             <div class="footer__block">
                 <div class="footer__logo-container">
-                    <img src="imgs/FooterLogo.svg" alt="" class="footer__logo" />
+                    <img
+                            src="imgs/FooterLogo.svg"
+                            alt="Website logo"
+                            class="footer__logo"
+                    />
                     <p class="footer__logo-text">
                         Foundation <span class="footer__text-color">Startup</span>
                     </p>
@@ -383,14 +427,22 @@
                 </p>
                 <div class="footer__btn-group">
                     <div class="footer__btn">
-                        <img class="footer__btn-icon" src="imgs/AppleLogoIcBtn.svg" />
+                        <img
+                                src="imgs/AppleLogoIcBtn.svg"
+                                alt="Apple logo"
+                                class="footer__btn-icon"
+                        />
                         <div>
                             <p class="footer__btn-subtitle">Download on the</p>
                             <p class="footer__btn-title">App Store</p>
                         </div>
                     </div>
                     <div class="footer__btn">
-                        <img class="footer__btn-icon" src="imgs/GooglePlayIcon.svg" />
+                        <img
+                                src="imgs/GooglePlayIcon.svg"
+                                alt="Google Play logo"
+                                class="footer__btn-icon"
+                        />
                         <div>
                             <p class="footer__btn-subtitle">Get it on</p>
                             <p class="footer__btn-title">Google play</p>
@@ -402,18 +454,30 @@
                 <div class="footer__container-links">
                     <h3 class="footer__title">Product</h3>
                     <ul class="footer__links-group">
-                        <li><a href="" class="footer__links-item">Acquire Users</a></li>
                         <li>
-                            <a href="" class="footer__links-item">Content Marketing</a>
+                            <a href="#AcquireUsers" class="footer__links-item"
+                            >Acquire Users</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="footer__links-item">Website Templates</a>
+                            <a href="#ContentMarketing" class="footer__links-item"
+                            >Content Marketing</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="footer__links-item">Customer Management</a>
+                            <a href="#WebsiteTemplates" class="footer__links-item"
+                            >Website Templates</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="footer__links-item"> Virtual Inbox</a>
+                            <a href="#CustomerManagement" class="footer__links-item"
+                            >Customer Management</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#VirtualInbox" class="footer__links-item">
+                                Virtual Inbox</a
+                            >
                         </li>
                     </ul>
                 </div>
@@ -421,13 +485,21 @@
                     <h3 class="footer__title">Company</h3>
                     <ul class="footer__links-group">
                         <li>
-                            <a href="" class="footer__links-item">About Foundation</a>
+                            <a href="#AboutFoundation" class="footer__links-item"
+                            >About Foundation</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="footer__links-item"> Brand Guidelines</a>
+                            <a href="#BrandGuidelines" class="footer__links-item">
+                                Brand Guidelines</a
+                            >
                         </li>
-                        <li><a href="" class="footer__links-item">Press Kit</a></li>
-                        <li><a href="" class="footer__links-item"> Support</a></li>
+                        <li>
+                            <a href="#PressKit" class="footer__links-item">Press Kit</a>
+                        </li>
+                        <li>
+                            <a href="#Support" class="footer__links-item"> Support</a>
+                        </li>
                     </ul>
                 </div>
             </div>
