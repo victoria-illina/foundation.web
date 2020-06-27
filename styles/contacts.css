@@ -1,30 +1,30 @@
-.contacts{
-    background:#f4f5f7;
+.contacts {
+    background: #f4f5f7;
     padding-top: 73px;
     padding-bottom: 72px;
 }
 
-.contacts__container{
+.contacts__container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contacts__bg{
+.contacts__bg {
     width: 30%;
     padding-right: 120px;
 }
 
-.contacts__content{
+.contacts__content {
     width: 70%;
 }
 
-.contacts__text{
+.contacts__text {
     width: 555px;
     padding-top: 12px;
     padding-bottom: 26px;
-
 }
+
 .contact__input {
     outline: none;
     width: 380px;
@@ -45,5 +45,5 @@
 }
 
 .contacts__link {
-    color:  #3142c6;
+    color: #3142c6;
 }
