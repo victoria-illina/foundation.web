@@ -1,0 +1,210 @@
+@media (max-width: 1200px) {
+
+    .title {
+        font-size: 35px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+
+    }
+
+    .home {
+        padding-top: 100px;
+    }
+
+    .home__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home__content-title {
+        font-size: 50px;
+    }
+
+    .home__content-text {
+        max-width: 700px;
+    }
+
+    .home__bg {
+        display: none;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .about__container {
+        text-align: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .features {
+        background-image: none;
+        padding-top: 50px;
+    }
+
+    .features__block-half {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .features__content-text {
+        max-width: 700px;
+    }
+
+    .features__secondary-subtitle-block {
+        justify-content: center;
+    }
+
+    .features__secondary-text {
+        display: none;
+    }
+
+    .features__line {
+        display: none;
+    }
+
+    .features__additional-block {
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .features__additional-line {
+        display: none;
+    }
+
+    .conversations {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .conversations__bg-block {
+        display: none;
+    }
+
+    .conversations__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conversations__text {
+        max-width: 700px;
+    }
+
+    .conversations__additional-content {
+        width: 50%;
+    }
+
+    .conversations__profile {
+        justify-content: center;
+    }
+
+    .communication {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .communication__block-bg {
+        display: none;
+    }
+
+    .communication__block-content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .communication__text {
+        max-width: 700px;
+    }
+
+    .communication__line {
+        display: none;
+    }
+
+    .communication__links {
+        display: none;
+    }
+
+    .audience {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .audience__btn-group {
+        padding: 30px 0;
+    }
+
+    .audience__sliders-block {
+        flex-direction: column;
+    }
+
+    .audience__slider {
+        margin-top: 20px;
+        width: 300px;
+        height: 260px;
+    }
+
+    .comments {
+        padding-top: 50px;
+    }
+
+    .comments__subtitle {
+        max-width: 700px;
+    }
+
+    .hiring__btn {
+        width: 650px;
+    }
+
+    .contacts__bg {
+        display: none;
+    }
+
+    .contacts__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact__input {
+        width: 300px;
+    }
+
+    .footer__block{
+        display: none;
+    }
+
+    .footer__blocks-links {
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+}
+
