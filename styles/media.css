@@ -4,6 +4,10 @@
         font-size: 35px;
     }
 
+      .header{
+          padding-left: 30px;
+      }
+
     .header__nav {
         display: none;
     }
@@ -14,7 +18,7 @@
     }
 
     .home {
-        padding-top: 100px;
+        padding-top: 150px;
     }
 
     .home__content {

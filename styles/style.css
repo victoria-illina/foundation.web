@@ -16,7 +16,6 @@ h1,h2,h3,p,a,li,span, input{
 .screen {
     margin: auto;
     max-width: 1200px;
-    padding-left: 80px;
     box-sizing: border-box;
 }
 
