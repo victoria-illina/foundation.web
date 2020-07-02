@@ -6,10 +6,16 @@
 .about__container {
     display: flex;
 }
+
 .about__content {
     width: 50%;
     padding-right: 50px;
 }
+
+.about__content:last-child {
+    padding-right: 0;
+}
+
 .about__content-title {
     font-weight: bold;
     font-size: 22px;

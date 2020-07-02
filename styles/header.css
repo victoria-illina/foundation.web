@@ -67,3 +67,8 @@
     height: 15px;
     padding-left: 7px;
 }
+
+.header__menu {
+    width: 40px;
+    display: none;
+}

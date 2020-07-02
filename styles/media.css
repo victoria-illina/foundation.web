@@ -1,12 +1,11 @@
 @media (max-width: 1200px) {
-
     .title {
         font-size: 35px;
     }
 
-      .header{
-          padding-left: 30px;
-      }
+    .header {
+        padding-left: 30px;
+    }
 
     .header__nav {
         display: none;
@@ -14,7 +13,10 @@
 
     .header__btn {
         display: none;
+    }
 
+    .header__menu {
+        display: block;
     }
 
     .home {
@@ -111,6 +113,10 @@
         text-align: center;
     }
 
+    .conversations__content-block {
+        padding-left: 0;
+    }
+
     .conversations__text {
         max-width: 700px;
     }
@@ -139,6 +145,7 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        padding-right: 0;
     }
 
     .communication__text {
@@ -201,7 +208,7 @@
         width: 300px;
     }
 
-    .footer__block{
+    .footer__block {
         display: none;
     }
 
@@ -212,3 +219,78 @@
     }
 }
 
+@media (max-width: 749px) and (min-width: 320px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .home__content-title {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .about__container {
+        flex-wrap: wrap;
+    }
+
+    .about__content {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .features__secondary-subtitle {
+        font-size: 18px;
+    }
+
+    .features__additional-text {
+        font-size: 18px;
+    }
+
+    .conversations__additional-content {
+        padding: 10px;
+    }
+
+    .conversations__additional-text {
+        font-size: 16px;
+    }
+
+    .conversations__profile-name {
+        font-size: 14px;
+    }
+
+    .hiring__btn-group {
+        margin-top: 30px;
+    }
+
+    .hiring__btn {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .hiring__btn-text {
+        display: none;
+    }
+
+    .contact__input {
+        width: 180px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .contacts__text-link {
+        font-size: 12px;
+    }
+
+    .footer__links-item {
+        font-size: 14px;
+    }
+}

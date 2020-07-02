@@ -47,9 +47,11 @@
 .communication__links {
     display: flex;
 }
+
 .communication__links-container {
     padding-right: 30px;
 }
+
 .communication__links-text {
     font-size: 18px;
     line-height: 1.44;
